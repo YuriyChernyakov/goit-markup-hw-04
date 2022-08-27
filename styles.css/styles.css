@@ -252,7 +252,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    text-align: center;}
+    align-items: center;}
 
 .our-clients-list {
     display: flex;
