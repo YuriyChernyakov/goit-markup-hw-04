@@ -157,21 +157,13 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 
 .about-us {padding-top: 94px;}
 
-.about-us-icons {
-    width: 70px;
-    height: 70px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 100px;
-    margin-right: 100px;;
-}
+.about-list div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:var(--buttons-bg);}
 
-.aboutus-icon-list li{background-color: var(--buttons-bg);}
-
-.aboutus-icon-list{
-    display: flex;
-    gap:30px;
-}
 
 .about-list li h2 {margin-bottom: 10px;}
 
