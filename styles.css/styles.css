@@ -164,7 +164,6 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     padding-right: 100px;
     background-color:var(--buttons-bg);}
 
-
 .about-list li h2 {margin-bottom: 10px;}
 
 .about-list li:not(:last-child) {margin-right: 30px;}
