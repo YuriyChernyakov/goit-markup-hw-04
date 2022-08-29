@@ -157,10 +157,11 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 .about-us {padding-top: 94px;}
 
 .about-list div{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 270px;
+    height: 120px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
     background-color:var(--buttons-bg);}
 
@@ -175,8 +176,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-size: 14px;
     line-height: 1.5;
     color: var(--title-color);
-    letter-spacing: 0.03em;
-    margin-top: 30px;}
+    letter-spacing: 0.03em;}
 
 .about-us p { 
     font-size: 14px;
@@ -291,8 +291,9 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 .clients-example a{
     width: 170px;
     height: 92px;
-    display: block;
+    display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid var(--clients-border);
     border-radius: 4px;
     fill: rgba(175, 177, 184, 1);
@@ -338,6 +339,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--adress-color);
+    padding-top: 12px;
     margin-bottom: 20px;}
 
 .invite .employer-logo {padding-bottom: 0;}
