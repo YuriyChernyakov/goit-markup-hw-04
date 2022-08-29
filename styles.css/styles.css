@@ -67,7 +67,8 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
-    color:var(--title-color)}
+    color:var(--title-color);
+    align-items: center;}
 
 .site-nav a:hover, 
 .site-nav a:focus {color: var(--buttons-links)}
@@ -98,13 +99,11 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
-    color: var(--txt-about);}
+    color: var(--txt-about);
+    align-items: center;}
 
-.mail-adress, .phone-number {
-    align-items: center;
-    fill: var(--txt-about);}
-
-.e-mail, .phone{margin-right: 10px;}
+.e-mail, .phone{margin-right: 10px;
+    fill:currentColor;}
 
 .phone-number {margin-left: 30px;}
 
@@ -115,7 +114,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     background-size: cover;
     padding-bottom: 200px;
     padding-top: 200px;
-    width: 1600px;
+    max-width: 1600px;
 }
 
 .title-main {
@@ -160,9 +159,12 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 .about-list div{
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
     background-color:var(--buttons-bg);}
+
+.about-us-icons {justify-content: center;}
 
 .about-list li h2 {margin-bottom: 10px;}
 
@@ -208,9 +210,10 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     padding-top: 94px;
     padding-bottom: 94px;}
 
-.employer-logo {display: flex;
+.employer-logo {
+    display: flex;
     gap:10px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     justify-content: center;}
 
 .employer-logo a {fill: var(--clients-border)}
@@ -281,16 +284,15 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     letter-spacing: 0.03em;
     text-align: center;}
 
-.our-clients-list {
+.our-clients-list{
     display: flex;
     gap:30px;}
 
 .clients-example a{
-    display: inline-block;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    width: 170px;
+    height: 92px;
+    display: block;
+    justify-content: center;
     border: 1px solid var(--clients-border);
     border-radius: 4px;
     fill: rgba(175, 177, 184, 1);
@@ -299,13 +301,15 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 .clients-example a:hover,
 .clients-example a:focus {fill: var(--buttons-links); border-color: var(--buttons-links);}
 
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;}
+
 .footer-list {display: flex;}
 
 .footer-list .contacts-footer{
     display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    margin-bottom: 60px;}
+    flex-direction: column;}
 
 .logo-footer {
     font-family: Raleway, sans-serif;
@@ -317,9 +321,6 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     
 .logo-footer span {color:var(--buttons-links) ;}
 
-.footer-list ul li:not(:last-child) {
-    margin-bottom: 9px;}
-
 .footer-list ul a {
     font-style: normal;
     font-size: 14px;
@@ -328,10 +329,7 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
 
 .invite {display: flex;
     flex-direction: column;
-    margin-top: 72px;
-    margin-bottom: 100px;
-    margin-left: 70px;
-    margin-right: 678px;}
+    margin-left: 70px;}
 
 .invite h2 {
     font-weight: 700;
@@ -341,6 +339,8 @@ ul,ol {margin-top: 0; margin-bottom: 0; padding-left: 0}
     text-transform: uppercase;
     color: var(--adress-color);
     margin-bottom: 20px;}
+
+.invite .employer-logo {padding-bottom: 0;}
 
 .invite a{background: rgba(255, 255, 255, 0.1);
 fill: var(--adress-color);}
